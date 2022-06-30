@@ -1,13 +1,98 @@
 body {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: azure;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.nav {
+  padding: 2rem 7rem;
+  margin: 0 auto;
+  max-width: 90rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font: 2.5rem sans-serif;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+li {
+  list-style: none;
+  
+}
+a {
+  text-decoration: none;
+  color: #434141;
+  font: 1em sans-serif;
+}
+a:hover {
+  color: rgb(53, 223, 246);
+}
+.logo {
+  color: rgb(53, 223, 246);
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 3rem;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7rem;
+  
+}
+.card {
+  border: solid .2rem #ccc;
+  padding: 2rem;
+  width: 15rem;
+  text-align: center;
+  color: rgb(59, 21, 211);
+  font-size: 1.5rem;
+}
+.wrapper {
+  padding: 2rem 5rem;
+  margin: 0 auto;
+  max-width: 60rem;
+  width: 100%;
+}
+.title {
+  color: brown;
+  font: 3rem sans-serif;
+  text-align: center;
+  text-transform: capitalize;
+}
+.btn {
+  background: red;
+  border-radius: 30%;
+  color: #fff;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.btnStyle {
+  padding: .5rem 2rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+}
+.border {
+  border: solid .2rem #ccc;
+  margin: 3rem 0 5.5rem;
+  padding: 0 0 1rem 2.5rem;
+  font: 1.5rem sans-serif;
+  color: #434141;
 }
